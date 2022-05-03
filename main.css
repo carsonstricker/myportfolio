@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(230, 230, 230);
+}
+
+/* Nav Bar */
+.navbar {
+    background: rgb(24,26,27);
+}
+.nav-link, .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: rgb(101, 201, 123);
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Header */
+.header {
+    background-image: url('images/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+.description {
+    left: 50%;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    background-color:rgba(121, 121, 121, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+.description h1 {
+    color: rgb(209, 209, 209);
+}
+.description p > i {
+    color: rgb(209, 209, 209);
+    font-size: 1.3rem;  
+}
+.description a {
+    border:1px solid rgb(24,26,27);
+    background:rgb(24,26,27);
+    border-radius: 5;
+    color:#fff;
+}
+.description a:hover {
+    border:1px solid rgb(101, 201, 123);
+    background:rgb(101, 201, 123);
+    color:#000;
+}
+
+
+.section-header h2 {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 3rem;
+    font-weight: 720;
+    text-align: center;
+}
+.section-header p{
+    color: rgb(100, 100, 100);
+    font-size: 1.4rem;
+    font-weight: 650;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+/* Section 1 */
+.about-me {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+.experience h2,h3{
+    text-align: center;
+}
+.experience h2 {
+    font-weight: 500;
+}
+.experience h3 {
+    font-weight: 200;
+}
+
+/* Section 2 */
+.background {
+    background: rgb(24,26,27);
+    padding: 4em 0;
+}
+.projects {
+    color: #fff;
+}
+.projects h2, h3{
+    text-align: center;
+}
+.projects > .section-header h2 {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 720;
+    text-align: center;
+}
+.projects > .section-header p {
+    color: rgb(148, 148, 148);
+    font-size: 1.4rem;
+    font-weight: 650;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+/* Section 3 */
+.background-2 {
+    background: rgb(230, 230, 230);
+    padding: 4em 0;
+}
+.contact img {
+    margin: 0 auto;
+}
+/* Footer */
+.page-footer {
+    background: rgb(24,26,27);
+    padding: 4em 0;
+}
+.page-footer h6, .page-footer p{
+    color: #fff;
+}
